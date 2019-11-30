@@ -1,5 +1,5 @@
 {
-  "name": "mdlinks",
+  "name": "md-links",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -19,5 +19,8 @@
   "dependencies": {
     "eslint": "^6.7.1",
     "jest": "^24.9.0"
+  },
+  "bin": {
+    "md-links": "./cli.js"
   }
 }
